@@ -1,0 +1,43 @@
+/* Tablet */
+@media(max-width:750px){
+    main{
+        justify-content: space-around;
+    }
+
+    .parte1{
+        width: 55%;
+    }
+
+    .parte2{
+        width: 40%;
+    }
+}
+
+/* Celular */
+
+@media(max-width: 665px){
+    header,
+    header nav,
+    header nav ul{
+        flex-direction: column;
+    }
+
+    header nav ul li{
+        margin-top: 10px;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    .parte1{
+        width: 80%;
+    }
+
+    .parte2{
+        margin: 0;
+        margin-top: 15px;
+        width: 100%;
+        height: 100px;
+    }
+}

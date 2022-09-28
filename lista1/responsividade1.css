@@ -1,0 +1,53 @@
+/* Tablet */
+header nav,
+header nav ul,
+.parte1,
+.parte2{
+    flex-wrap: wrap;
+}
+
+@media(max-width:750px){
+    main,
+    header{
+        margin: 10px;
+    }
+
+    main #moda{
+        width: 700px;
+    }
+
+    .conj3{
+        margin-top: 50px;
+    }
+}
+
+/* Celular */
+
+@media(max-width:360px){
+    main,
+    header{
+        margin: 10px;
+    }
+
+    header,
+    header nav,
+    header nav ul{
+        flex-direction: column;
+    }
+
+    header nav ul li{
+        margin-top: 10px;
+    }
+
+    main #moda{
+        width: 310px;
+    }
+
+    .conj2{
+        margin-top: 50px;
+    }
+
+    .parte2{
+        justify-content: center;
+    }
+}
